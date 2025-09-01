@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+*.pid
+exo_primary.log
+exo_primary.pid
+/tmp/
+
+# Model files (too large for GitHub)
+*.mlx
+*.bin
+*.safetensors
+*.gguf
+models/
+
+# Cache
+.cache/
+__pycache__/
+
+# Config files with sensitive info
+discovery.json
+
+# Temporary files
+*.tmp
+temp/
+tmp/
